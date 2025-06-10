@@ -1,33 +1,54 @@
+# Reimagined Octo Funicular
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Overview
+
+This project is a modern web application built with the latest technologies to ensure a high-quality, scalable, and maintainable codebase. Below is a detailed overview of the tech stack and project structure.
+
+### Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org) - A React framework for building server-side rendered and static web applications.
+- **Language**: [TypeScript](https://www.typescriptlang.org) - A typed superset of JavaScript that enhances code quality and developer productivity.
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com) - A utility-first CSS framework for creating custom designs without leaving your HTML.
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com) - A collection of beautifully designed, accessible, and customizable React components.
+- **Package Manager**: [Bun](https://bun.sh) - A fast, all-in-one toolkit for JavaScript and TypeScript applications.
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+bun install
+```
+
+Next, run the development server:
+
+```bash
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
+
+The project follows a standard Next.js `app` directory structure:
+
+- **`src/app`**: Contains the core application files, including pages and layouts.
+- **`src/components`**: Houses all the UI components, with `shadcn/ui` components in the `src/components/ui` subdirectory.
+- **`src/lib`**: Includes utility functions and helper scripts.
+- **`public`**: Stores static assets like images and fonts.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project, refer to the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) - for in-depth information on utility classes and customization.
+- [shadcn/ui Documentation](https://ui.shadcn.com/docs) - for details on using and customizing the UI components.
 
 ## Deploy on Vercel
 
