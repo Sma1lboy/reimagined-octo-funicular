@@ -20,6 +20,32 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Project Structure
+
+The project structure is organized as follows:
+
+- **`/src`**: Contains the main source code of the application.
+  - **`/app`**: Includes the core application files, such as layouts and pages.
+  - **`/components`**: Houses reusable UI components.
+  - **`/hooks`**: Stores custom React hooks.
+  - **`/lib`**: Contains utility functions and libraries.
+- **`/public`**: Stores static assets like images and fonts.
+- **`.gitignore`**: Specifies files and folders to be ignored by Git.
+- **`next.config.ts`**: Configuration file for Next.js.
+- **`package.json`**: Lists project dependencies and scripts.
+- **`tsconfig.json`**: TypeScript configuration file.
+
+## Technologies Used
+
+This project is built with the following technologies:
+
+- **[Next.js](https://nextjs.org)**: A React framework for building server-side rendered and static web applications.
+- **[React](https://reactjs.org)**: A JavaScript library for building user interfaces.
+- **[TypeScript](https://www.typescriptlang.org)**: A typed superset of JavaScript that enhances code quality and maintainability.
+- **[Tailwind CSS](https://tailwindcss.com)**: A utility-first CSS framework for creating custom designs.
+- **[ESLint](https://eslint.org)**: A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+- **[Bun](https://bun.sh)**: A fast JavaScript all-in-one toolkit.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
