@@ -1,24 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Landing Page Template
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). It serves as a feature-rich starting point for building modern, responsive, and scalable web applications.
+
+## Features
+
+This project includes a comprehensive set of features to accelerate development:
+
+- **Framework**: [Next.js](https://nextjs.org) 15 (with Turbopack)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com) 4
+- **UI Components**: A rich collection of components from [shadcn/ui](https://ui.shadcn.com), including:
+  - Accordion, Dialogs, Cards, Carousels, and more.
+  - Advanced form elements with `react-hook-form` and `zod`.
+  - Charts powered by `recharts`.
+- **Theming**: Dark mode support with `next-themes`.
+- **Linting**: Code quality maintained with ESLint.
+- **Fonts**: Optimized font loading with `next/font` (Geist).
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    # or
+    bun install
+    ```
+
+3.  **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/app/page.tsx`.
+
+## Project Structure
+
+The project follows a standard Next.js `src` directory structure:
+
+```
+src/
+├── app/          # Main application routes
+├── components/   # Shared and UI components
+│   └── ui/       # Components from shadcn/ui
+├── hooks/        # Custom React hooks
+└── lib/          # Utility functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Available Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In the project directory, you can run:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev`: Starts the development server with Turbopack.
+- `npm run build`: Builds the application for production.
+- `npm run start`: Starts a production server.
+- `npm run lint`: Runs the linter to check for code quality issues.
 
 ## Learn More
 
