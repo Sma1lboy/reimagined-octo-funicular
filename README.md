@@ -1,3 +1,5 @@
+# Reimagined Octo Funicular
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -27,6 +29,7 @@ The project structure is organized as follows:
 - **`/src`**: Contains the main source code of the application.
   - **`/app`**: Includes the core application files, such as layouts and pages.
   - **`/components`**: Houses reusable UI components.
+    - **`/ui`**: Contains UI components from [shadcn/ui](https://ui.shadcn.com/).
   - **`/hooks`**: Stores custom React hooks.
   - **`/lib`**: Contains utility functions and libraries.
 - **`/public`**: Stores static assets like images and fonts.
@@ -34,6 +37,20 @@ The project structure is organized as follows:
 - **`next.config.ts`**: Configuration file for Next.js.
 - **`package.json`**: Lists project dependencies and scripts.
 - **`tsconfig.json`**: TypeScript configuration file.
+
+## UI Components
+
+This project uses a variety of UI components from `src/components/ui`, including:
+
+- Accordion
+- Alert
+- Badge
+- Button
+- Card
+- Carousel
+- And many more!
+
+These components are built using [shadcn/ui](https://ui.shadcn.com/) and can be easily customized and extended.
 
 ## Technologies Used
 
